@@ -1,0 +1,16 @@
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\bin\Debug\net8.0-windows\Colision2.exe
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\bin\Debug\net8.0-windows\Colision2.deps.json
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\bin\Debug\net8.0-windows\Colision2.runtimeconfig.json
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\bin\Debug\net8.0-windows\Colision2.dll
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\bin\Debug\net8.0-windows\Colision2.pdb
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.Form1.resources
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.csproj.GenerateResource.cache
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.AssemblyInfoInputs.cache
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.AssemblyInfo.cs
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.csproj.CoreCompileInputs.cache
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.dll
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\refint\Colision2.dll
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.pdb
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\Colision2.genruntimeconfig.cache
+C:\Users\ladis\OneDrive\Escritorio\PACMAN\Colision2\Colision2\obj\Debug\net8.0-windows\ref\Colision2.dll
