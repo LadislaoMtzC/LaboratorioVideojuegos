@@ -1,0 +1,22 @@
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.csproj.AssemblyReference.cache
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.Form1.resources
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.Properties.Resources.resources
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.csproj.GenerateResource.cache
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.csproj.CoreCompileInputs.cache
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\bin\Debug\Partículas.exe.config
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\bin\Debug\Partículas.exe
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\bin\Debug\Partículas.pdb
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.Resources.resources
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.exe
+C:\Users\armen\OneDrive\UDLAP\6to semestre\Graficacion\Visual\Partículas\Partículas\obj\Debug\Partículas.pdb
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\bin\Debug\Partículas.exe.config
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\bin\Debug\Partículas.exe
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\bin\Debug\Partículas.pdb
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.csproj.AssemblyReference.cache
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.Form1.resources
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.Properties.Resources.resources
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.Resources.resources
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.csproj.GenerateResource.cache
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.csproj.CoreCompileInputs.cache
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.exe
+C:\Users\ladis\OneDrive\Escritorio\Partículas\Partículas\Partículas\obj\Debug\Partículas.pdb
