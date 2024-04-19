@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\playground\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\playground\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|c:\\users\\f126a\\onedrive\\documentos\\github\\sumo_yokozuna\\playground\\playground\\vpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\vpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|c:\\users\\f126a\\onedrive\\documentos\\github\\sumo_yokozuna\\playground\\playground\\velement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\velement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|c:\\users\\f126a\\onedrive\\documentos\\github\\sumo_yokozuna\\playground\\playground\\myform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\myform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\playground\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\resource1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\playground\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\myform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\playground\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\playground\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE8FFA2-E40D-4310-86F6-B4F2ECB26604}|PLAYGROUND\\PLAYGROUND.csproj|solutionrelative:playground\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Game.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\Game.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Game.cs",
+              "RelativeToolTip": "PLAYGROUND\\Game.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwB4AAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:52:06.16Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\MyForm.Designer.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\MyForm.Designer.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\MyForm.Designer.cs",
+              "RelativeToolTip": "PLAYGROUND\\MyForm.Designer.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAD4v48AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:29:54.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VPoint.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\VPoint.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\VPoint.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\VPoint.cs",
+              "RelativeToolTip": "PLAYGROUND\\VPoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:18:52.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VElement.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\VElement.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\VElement.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\VElement.cs",
+              "RelativeToolTip": "PLAYGROUND\\VElement.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwC8AAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:09:52.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Scene.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\Scene.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Scene.cs",
+              "RelativeToolTip": "PLAYGROUND\\Scene.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:09:45.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\MyForm.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\MyForm.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\MyForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PLAYGROUND\\MyForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:56:41.432Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resource1.resx",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Resource1.resx",
+              "RelativeDocumentMoniker": "PLAYGROUND\\Resource1.resx",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Resource1.resx",
+              "RelativeToolTip": "PLAYGROUND\\Resource1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-18T16:31:41.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyForm.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\MyForm.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\MyForm.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\MyForm.cs",
+              "RelativeToolTip": "PLAYGROUND\\MyForm.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAgwHgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T16:19:12.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Canvas.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Canvas.cs",
+              "RelativeDocumentMoniker": "PLAYGROUND\\Canvas.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\Sumo_yokozuna\\PLAYGROUND\\PLAYGROUND\\Canvas.cs",
+              "RelativeToolTip": "PLAYGROUND\\Canvas.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwDMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T00:06:58.64Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
