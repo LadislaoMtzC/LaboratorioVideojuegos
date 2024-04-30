@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\velement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\velement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\vec2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\vec2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\vpole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\vpole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\vpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\vpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\ladis\\desktop\\sumosmonogame\\sumosmonogame\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Game1.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Game1.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Game1.cs",
+              "RelativeToolTip": "SumosMonogame\\Game1.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAowAwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Canvas.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Canvas.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Canvas.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Canvas.cs",
+              "RelativeToolTip": "SumosMonogame\\Canvas.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Scene.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Scene.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Scene.cs",
+              "RelativeToolTip": "SumosMonogame\\Scene.cs",
+              "ViewState": "AQIAABwBAAAAAAAAAAAIwCgBAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VElement.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\VElement.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\VElement.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\VElement.cs",
+              "RelativeToolTip": "SumosMonogame\\VElement.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAKcAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Map.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Map.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Map.cs",
+              "RelativeToolTip": "SumosMonogame\\Map.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Juego.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Juego.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Juego.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Juego.cs",
+              "RelativeToolTip": "SumosMonogame\\Juego.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VPoint.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\VPoint.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\VPoint.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\VPoint.cs",
+              "RelativeToolTip": "SumosMonogame\\VPoint.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAUwDYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VPole.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\VPole.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\VPole.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\VPole.cs",
+              "RelativeToolTip": "SumosMonogame\\VPole.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vec2.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Vec2.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Vec2.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Vec2.cs",
+              "RelativeToolTip": "SumosMonogame\\Vec2.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Camera.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Camera.cs",
+              "ToolTip": "C:\\Users\\ladis\\Desktop\\SumosMonogame\\SumosMonogame\\Camera.cs",
+              "RelativeToolTip": "SumosMonogame\\Camera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.91Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
