@@ -67,7 +67,7 @@ namespace SumosMonogame
             VPoles.Add(new VPole(VPoints[i1], VPoints[i2], length, stiffness));
 
         }
-        public void Render(int Canvasw, int Canvash, Texture2D brush, Texture2D sumoNormal, Texture2D sumoSleep, Texture2D redSumo, Texture2D blueSumo)
+        public void Render(int Canvasw, int Canvash, Texture2D brush, Texture2D sumoNormal, Texture2D sumoSleep, Texture2D sumoBody)
         {
 
             
@@ -108,7 +108,7 @@ namespace SumosMonogame
 
             spriteBatch.Begin();
             //spriteBatch.Draw(redSumo, new Vector2(200, 200), Color.White);
-            spriteBatch.Draw(redSumo, new Rectangle((int)VPoints[bodyCenterId].pos.X-60, (int)VPoints[bodyCenterId].pos.Y - 60, 140, 140), Color.White);
+            spriteBatch.Draw(sumoBody, new Rectangle((int)VPoints[bodyCenterId].pos.X-60, (int)VPoints[bodyCenterId].pos.Y - 60, 140, 140), Color.White);
             spriteBatch.End();
 
 

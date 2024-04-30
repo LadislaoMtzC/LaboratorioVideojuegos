@@ -288,7 +288,7 @@ namespace SumosMonogame
 
 
 
-        public void Render(int Width, int Height, Texture2D brush, Texture2D sumoNormal, Texture2D sumoSleep, Texture2D redSumo, Texture2D blueSumo)
+        public void Render(int Width, int Height, Texture2D brush, Texture2D sumoNormal, Texture2D sumoSleep, Texture2D blueSumo, Texture2D redSumo)
         {
 
             for (int s = 0; s < Elements.Count; s++)
@@ -298,8 +298,14 @@ namespace SumosMonogame
                 {
                     checkCollisionBetweenElements(s, t);
                 }
-
-                Elements[s].Render( Width, Height, brush, sumoNormal, sumoSleep, redSumo, blueSumo);
+                if (s == 0)
+                {
+                    Elements[s].Render(Width, Height, brush, sumoNormal, sumoSleep, redSumo);
+                }
+                else {
+                    Elements[s].Render(Width, Height, brush, sumoNormal, sumoSleep, blueSumo);
+                }
+                
             }
         }
     }

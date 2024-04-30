@@ -44,18 +44,18 @@ namespace SumosMonogame
 
 
         
-        public void Render(Scene scene, float deltaTime, Juego juego, DateTime lastWKeyPressTime, DateTime lastIKeyPressTime, TimeSpan delayTime, Texture2D brush, Texture2D heart, Texture2D jumpActivated, Texture2D jumpDesactivated, Texture2D brick, Texture2D sumoNormal, Texture2D sumoSleep, Texture2D redSumo, Texture2D blueSumo)
+        public void Render(Scene scene, float deltaTime, Juego juego, DateTime lastWKeyPressTime, DateTime lastIKeyPressTime, TimeSpan delayTime, Texture2D brush, Texture2D heart, Texture2D arrow, Texture2D brick, Texture2D sumoNormal, Texture2D sumoSleep, Texture2D blueSumo, Texture2D redSumo, Vec2 pos1, Vec2 pos2)
         {
 
 
-            scene.Render(Width, Height, brush, sumoNormal, sumoSleep, redSumo, blueSumo);
+            scene.Render(Width, Height, brush, sumoNormal, sumoSleep, blueSumo, redSumo);
 
             camera.previousPoint.X = camera.point.X;
             camera.point.X = scene.getMiddlePoint(0, 1);
             camerax=camera.point.X;
             int[,] matriz = map.Draw(camera.point, Width, Height, brick);
             scene.extractLimits(matriz);
-            juego.Render(Width, Height, lastWKeyPressTime, lastIKeyPressTime, delayTime, heart, jumpActivated, jumpDesactivated);
+            juego.Render(Width, Height, lastWKeyPressTime, lastIKeyPressTime, delayTime, heart, arrow, pos1, pos2);
 
             //los bloques
 

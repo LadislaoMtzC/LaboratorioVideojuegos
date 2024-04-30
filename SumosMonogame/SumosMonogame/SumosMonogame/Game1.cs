@@ -19,7 +19,7 @@ namespace SumosMonogame
         public SpriteBatch _spriteBatch;
 
 
-        Texture2D clouds, heart, Temples, sumoSleep, sumoNormal, jumpAtivated, jumpDesactivated, brick, button, redSumo, blueSumo, gameOver;
+        Texture2D clouds, heart, Temples, sumoSleep, sumoNormal, jumpAtivated, jumpDesactivated, brick, button, redSumo, blueSumo, gameOver, arrow;
         SpriteFont titles;
   
         private float templesSpeed = 3.5f;
@@ -34,7 +34,7 @@ namespace SumosMonogame
         DateTime lastIKeyPressTime;
         int timeAfterLoosingSumo1;
         int timeAfterLoosingSumo2;
-        int lifes = 1;
+        int lifes = 3;
         float delta;
         Texture2D brush;
         GraphicsDevice graphicsDevice;
@@ -53,7 +53,7 @@ namespace SumosMonogame
 
 
 
-        TimeSpan delayTime = TimeSpan.FromSeconds(3);
+        TimeSpan delayTime = TimeSpan.FromSeconds(1.5);
 
         int width, height;
         
@@ -103,7 +103,8 @@ namespace SumosMonogame
             juego = new Juego(lifes, graphicsDevice);
             delta = 0;
 
-            timeAfterLoosingSumo1 = timeAfterLoosingSumo2 = 0;
+            timeAfterLoosingSumo1 = 0;
+            timeAfterLoosingSumo2 = 0;
 
             
             base.Initialize();
@@ -127,9 +128,10 @@ namespace SumosMonogame
             brick = Content.Load<Texture2D>("brick");
             jumpDesactivated = Content.Load<Texture2D>("jumpDesactivated");
             button = Content.Load<Texture2D>("buttonStock1h");
-            redSumo = Content.Load<Texture2D>("redSumo");
-            blueSumo = Content.Load<Texture2D>("blueSumo");
+            redSumo = Content.Load<Texture2D>("redSumo1");
+            blueSumo = Content.Load<Texture2D>("blueSumo1");
             gameOver = Content.Load<Texture2D>("GO6");
+            arrow = Content.Load<Texture2D>("arrow");
             titles = Content.Load<SpriteFont>("galleryFont");
 
             _components = new List<Component>();
@@ -174,9 +176,8 @@ namespace SumosMonogame
             // Si los templos se salen del lado derecho de la pantalla, reaparécelos en el lado izquierdo
             if (templesPosition.X > width)
             {
-                templesPosition.X %= width; // Ajusta la posición utilizando el módulo
+                templesPosition.X = 0; // Ajusta la posición utilizando el módulo
             }
-
             //UPDATE SUMOS
             inputSumo1();
             inputSumo2();
@@ -197,7 +198,6 @@ namespace SumosMonogame
             float scale = (float)width / Temples.Width;
 
             spriteBatchBackground.Draw(Temples, templesPosition, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
-
             spriteBatchBackground.End();
             
 
@@ -205,7 +205,7 @@ namespace SumosMonogame
             //DIBUJAR CANVAS
 
             _spriteBatch.Begin();
-            canvas.Render(scene, delta, juego, lastWKeyPressTime, lastIKeyPressTime, delayTime, brush, heart, jumpAtivated, jumpDesactivated, brick, sumoNormal, sumoSleep, redSumo, blueSumo);
+            canvas.Render(scene, delta, juego, lastWKeyPressTime, lastIKeyPressTime, delayTime, brush, heart, arrow, brick, sumoNormal, sumoSleep, blueSumo, redSumo, scene.Elements[0].VPoints[scene.Elements[0].headCenterId].pos, scene.Elements[1].VPoints[scene.Elements[1].headCenterId].pos);
             _spriteBatch.End();
 
             

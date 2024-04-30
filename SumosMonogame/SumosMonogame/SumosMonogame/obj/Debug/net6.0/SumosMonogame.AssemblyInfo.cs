@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SumosMonogame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4ec9588eff616a88276431fbb6f06ea39aefa9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SumosMonogame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SumosMonogame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

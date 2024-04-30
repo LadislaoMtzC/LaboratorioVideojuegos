@@ -32,7 +32,7 @@ namespace SumosMonogame
             
         }
 
-        public void Render(int Canvasw, int Canvash, DateTime lastWKeyPressTime, DateTime lastIKeyPressTime, TimeSpan delayTime, Texture2D heart, Texture2D jumpA, Texture2D jumpD)
+        public void Render(int Canvasw, int Canvash, DateTime lastWKeyPressTime, DateTime lastIKeyPressTime, TimeSpan delayTime, Texture2D heart, Texture2D arrow, Vec2 sumoA, Vec2 sumoB)
         {
             int heartPosSumo1, heartPosSumo2;
             heartPosSumo1 = 10;
@@ -50,15 +50,10 @@ namespace SumosMonogame
                 heartPosSumo1 += 10 + heart.Width;
             }
             //le llega los segundos y revisa si puede saltar o no y dependiendo de eso dibuja x boton
-            if ((DateTime.Now - lastWKeyPressTime) > delayTime)
+            if (((DateTime.Now - lastWKeyPressTime) > delayTime))
             {
                 //g.DrawImage(jumpA, 10, 60 + heart.Height, jumpA.Width, jumpA.Height);
-                spriteBatch.Draw(jumpA, new Rectangle(10, 60 + heart.Height, jumpA.Width, jumpA.Height), Color.White);
-            }
-            else
-            {
-                //g.DrawImage(jumpD, 10, 60 + heart.Height, jumpD.Width, jumpD.Height);
-                spriteBatch.Draw(jumpD, new Rectangle(10, 60 + heart.Height, jumpD.Width, jumpD.Height), Color.White);
+                spriteBatch.Draw(arrow, new Rectangle((int)sumoA.X, (int)sumoA.Y-60, arrow.Width, arrow.Height), Color.White);
             }
             //por vidas jugador 2 dibuja x corazones
             for (int i = 0; i < lifesSumo2; i++)
@@ -68,15 +63,10 @@ namespace SumosMonogame
                 heartPosSumo2 -= 10 + heart.Width;
             }
             //le llega los segundos y revisa si puede saltar o no y dependiendo de eso dibuja x boton
-            if ((DateTime.Now - lastIKeyPressTime) > delayTime)
+            if (((DateTime.Now - lastIKeyPressTime) > delayTime))
             {
-                //g.DrawImage(jumpA, Canvasw - jumpA.Width - 10, 60 + heart.Height, jumpA.Width, jumpA.Height);
-                spriteBatch.Draw(jumpA, new Rectangle(Canvasw - jumpA.Width - 10, 60 + heart.Height, jumpA.Width, jumpA.Height), Color.White);
-            }
-            else
-            {
-                //g.DrawImage(jumpD, Canvasw - jumpD.Width - 10, 60 + heart.Height, jumpD.Width, jumpD.Height);
-                spriteBatch.Draw(jumpD, new Rectangle(Canvasw - jumpD.Width - 10, 60 + heart.Height, jumpD.Width, jumpD.Height), Color.White);
+                //g.DrawImage(jumpA, 10, 60 + heart.Height, jumpA.Width, jumpA.Height);
+                spriteBatch.Draw(arrow, new Rectangle((int)sumoB.X, (int)sumoB.Y - 60, arrow.Width, arrow.Height), Color.White);
             }
 
             spriteBatch.End();

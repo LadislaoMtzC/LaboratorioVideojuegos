@@ -129,7 +129,7 @@ namespace SumosMonogame
                     {
                         case '.':
                             //g.FillRectangle(Brushes.Black, stepX, stepY, nTileWidth, nTileHeight);
-                            if (previousOnePlatform && indexRightLimits < 3 && indexLeftLimits < 3)
+                            if (previousOnePlatform && indexRightLimits < 3 && (indexLeftLimits < 3 || indexRightLimits<3))
                             {
                                 horizontalLimits[1, indexRightLimits] = (int)stepX;
                                 indexRightLimits++;
@@ -148,13 +148,13 @@ namespace SumosMonogame
                             
 
 
-                            if ((previousOneEmpty || x == -1) && indexLeftLimits < 3 && indexRightLimits < 3)
+                            if ((previousOneEmpty || x == -1) && (indexLeftLimits < 3 || indexRightLimits < 3))
                             {
                                 //means that it encountered a left limit
                                 horizontalLimits[0, indexLeftLimits] = (int)stepX;
                                 indexLeftLimits++;
                             }
-                            if (x == nVisibleTilesX + 1 && indexRightLimits < 3 && indexLeftLimits < 3)
+                            if (x == nVisibleTilesX + 1 && indexRightLimits < 3 &&  indexRightLimits < 3)
                             {
                                 horizontalLimits[1, indexRightLimits] = (int)stepX;
                                 indexRightLimits++;
