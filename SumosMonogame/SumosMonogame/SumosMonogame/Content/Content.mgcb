@@ -176,6 +176,12 @@
 /processorParam:TextureFormat=Color
 /build:GO7.png
 
+#begin golpe.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:golpe.wav
+
 #begin heart.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -212,6 +218,24 @@
 /processorParam:TextureFormat=Color
 /build:jumpDesactivated.png
 
+#begin knock.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:knock.wav
+
+#begin knock2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:knock2.wav
+
+#begin knock3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:knock3.wav
+
 #begin redSumo1.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -223,6 +247,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:redSumo1.png
+
+#begin salto.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:salto.mp3
+
+#begin salto2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:salto2.wav
 
 #begin sumo.png
 /importer:TextureImporter

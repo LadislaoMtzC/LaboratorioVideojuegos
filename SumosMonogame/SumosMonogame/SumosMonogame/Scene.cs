@@ -15,6 +15,7 @@ namespace SumosMonogame
         int ySuperiorLimit;
         int yInferiorLimit;
 
+
         private GraphicsDevice graphicsDevice;
         
 

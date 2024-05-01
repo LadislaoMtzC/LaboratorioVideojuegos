@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Clouds.png</SourceFile>
-  <SourceTime>2024-04-30T15:15:12.9714814-06:00</SourceTime>
-  <DestFile>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/bin/DesktopGL/Content/Clouds.xnb</DestFile>
-  <DestTime>2024-04-30T15:16:21.0417655-06:00</DestTime>
+  <SourceFile>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Clouds.png</SourceFile>
+  <SourceTime>2024-04-30T23:18:15.8988442-06:00</SourceTime>
+  <DestFile>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/bin/DesktopGL/Content/Clouds.xnb</DestFile>
+  <DestTime>2024-05-01T00:47:08.4456513-06:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T06:44:56-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -4,30 +4,42 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/arrow.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/blueSumo1.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/brick.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/buttonStock1h.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/CherryBlossoms.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Clouds.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/galleryFont.spritefont</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GameOver.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO2.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO3.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO4.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO5.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO6.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO7.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/heart.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/jumpActivated.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/jumpDesactivated.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/redSumo1.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/sumo.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/sumoNormal.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/sumoSleep.png</File>
-    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Temples.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/arrow.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/blueSumo1.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/brick.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/buttonStock1h.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/CherryBlossoms.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Clouds.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/galleryFont.spritefont</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GameOver.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO2.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO3.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO4.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO5.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO6.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/GO7.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/golpe.wav</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/heart.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/jumpActivated.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/jumpDesactivated.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock.wav</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock2.wav</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock3.wav</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/redSumo1.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/salto.mp3</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/salto2.wav</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/sumo.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/sumoNormal.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/sumoSleep.png</File>
+    <File>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Temples.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -18,7 +18,8 @@ namespace SumosMonogame
         private GraphicsDeviceManager g;
         public SpriteBatch _spriteBatch;
 
-
+        SoundEffect golpe, knock, salto;
+        SoundEffectInstance instGolpe, instKnock, instSalto;
         Texture2D clouds, heart, Temples, sumoSleep, sumoNormal, jumpAtivated, jumpDesactivated, brick, button, redSumo, blueSumo, gameOver, arrow;
         SpriteFont titles;
   
@@ -99,8 +100,8 @@ namespace SumosMonogame
             //CLASES
             canvas = new Canvas(width, height, _spriteBatch, graphicsDevice);
             scene = new Scene(width, height, graphicsDevice);
-            scene.AddSumo(new Vec2(750, 200), 60);
-            scene.AddSumo(new Vec2(1050, 200), 60);
+            scene.AddSumo(new Vec2(720, 200), 60);
+            scene.AddSumo(new Vec2(1080, 200), 60);
             juego = new Juego(lifes, graphicsDevice);
             delta = 0;
 
@@ -120,6 +121,7 @@ namespace SumosMonogame
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            //TEXTURAS
             clouds = Content.Load<Texture2D>("Clouds");
             heart = Content.Load<Texture2D>("heart");
             Temples = Content.Load<Texture2D>("Temples");
@@ -134,10 +136,23 @@ namespace SumosMonogame
             gameOver = Content.Load<Texture2D>("GO6");
             arrow = Content.Load<Texture2D>("arrow");
             titles = Content.Load<SpriteFont>("galleryFont");
-
             _components = new List<Component>();
-            
-            
+
+
+            //SONIDOS
+            golpe = Content.Load<SoundEffect>("golpe");
+            instGolpe = golpe.CreateInstance();
+
+            knock = Content.Load<SoundEffect>("knock3");
+            instKnock = knock.CreateInstance();
+
+            salto = Content.Load<SoundEffect>("salto2");
+            instSalto = salto.CreateInstance();
+
+     
+
+
+            //VARIABLES
             angle = 0f;
             origin = new Vector2(0, 0);
             pos = new Vector2(0, 0);
@@ -147,6 +162,8 @@ namespace SumosMonogame
             templesPosition = new Vector2(0, 300);
             templesPosition2 = new Vector2(-width, 300);
 
+
+            //SPRITES
             spriteBatchBackground = new SpriteBatch(GraphicsDevice);
             spriteBatchForeground = new SpriteBatch(GraphicsDevice);
 
@@ -156,12 +173,6 @@ namespace SumosMonogame
 
             spriteBatchForeground.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend, null, null, null, null, Matrix.Identity);
             spriteBatchForeground.End();
-
-
-
-
-
-
 
 
         }
@@ -247,8 +258,8 @@ namespace SumosMonogame
                         juego.nextRound();
                         map = new Map(graphicsDevice);
                         scene = new Scene(width, height, graphicsDevice);
-                        scene.AddSumo(new Vec2(750, 200), 60);
-                        scene.AddSumo(new Vec2(1050, 200), 60);
+                        scene.AddSumo(new Vec2(720, 200), 60);
+                        scene.AddSumo(new Vec2(1080, 200), 60);
                     }
                     else
                     {
@@ -281,8 +292,8 @@ namespace SumosMonogame
                         juego.nextRound();
                         map = new Map(graphicsDevice);
                         scene = new Scene(width, height, graphicsDevice);
-                        scene.AddSumo(new Vec2(750, 200), 60);
-                        scene.AddSumo(new Vec2(1050, 200), 60);
+                        scene.AddSumo(new Vec2(720, 200), 60);
+                        scene.AddSumo(new Vec2(1080, 200), 60);
                     }
                     else
                     {
@@ -333,6 +344,9 @@ namespace SumosMonogame
                         scene.Elements[0].VPoints[0].old = new Vec2(scene.Elements[0].VPoints[0].pos.X, scene.Elements[0].VPoints[0].pos.Y + 350);
                         wKey = false;
                         lastWKeyPressTime = DateTime.Now;
+                        instSalto.Pan = 1;
+                        instSalto.Volume = 0.5f;
+                        instSalto.Play();
                     }
 
                     //SoundManagercs.soundEffect.Play(.5f,0,-1);
@@ -341,15 +355,29 @@ namespace SumosMonogame
 
                 if (state.IsKeyDown(Keys.A))
                 {
-                    if (aKey) { scene.Elements[0].VPoints[0].old = new Vec2(scene.Elements[0].VPoints[0].pos.X + 50, scene.Elements[0].VPoints[0].pos.Y); aKey = false; }
+                    if (aKey) { scene.Elements[0].VPoints[0].old = new Vec2(scene.Elements[0].VPoints[0].pos.X + 50, scene.Elements[0].VPoints[0].pos.Y); aKey = false;
+                        instGolpe.Pan = 1;
+                        instGolpe.Volume = 0.5f;
+                        instGolpe.Play();
+                    }
+                    
                 }
 
                 if (state.IsKeyDown(Keys.D))
                 {
-                    if (dKey) { scene.Elements[0].VPoints[0].old = new Vec2(scene.Elements[0].VPoints[0].pos.X - 50, scene.Elements[0].VPoints[0].pos.Y); dKey = false; }
+                    if (dKey) { scene.Elements[0].VPoints[0].old = new Vec2(scene.Elements[0].VPoints[0].pos.X - 50, scene.Elements[0].VPoints[0].pos.Y); dKey = false;
+                        instGolpe.Pan = 1;
+                        instGolpe.Volume = 0.5f;
+                        instGolpe.Play();
+                    }
                 }
 
 
+            }
+            else {
+                instKnock.Pan = 1;
+                instKnock.Volume = 0.5f;
+                instKnock.Play();
             }
 
   
@@ -374,6 +402,9 @@ namespace SumosMonogame
                         scene.Elements[1].VPoints[0].old = new Vec2(scene.Elements[1].VPoints[0].pos.X, scene.Elements[1].VPoints[0].pos.Y + 350);
                         upKey = false;
                         lastIKeyPressTime = DateTime.Now;
+                        instSalto.Pan = 1;
+                        instSalto.Volume = 0.5f;
+                        instSalto.Play();
                     }
 
                     //SoundManagercs.soundEffect.Play(.5f,0,-1);
@@ -382,15 +413,28 @@ namespace SumosMonogame
 
                 if (state.IsKeyDown(Keys.Left))
                 {
-                    if (leftKey) { scene.Elements[1].VPoints[0].old = new Vec2(scene.Elements[1].VPoints[0].pos.X + 50, scene.Elements[1].VPoints[0].pos.Y); leftKey = false; }
+                    if (leftKey) { scene.Elements[1].VPoints[0].old = new Vec2(scene.Elements[1].VPoints[0].pos.X + 50, scene.Elements[1].VPoints[0].pos.Y); leftKey = false;
+                        instGolpe.Pan = 1;
+                        instGolpe.Volume = 0.5f;
+                        instGolpe.Play();
+                    }
                 }
 
                 if (state.IsKeyDown(Keys.Right))
                 {
-                    if (rightKey) { scene.Elements[1].VPoints[0].old = new Vec2(scene.Elements[1].VPoints[0].pos.X - 50, scene.Elements[1].VPoints[0].pos.Y); rightKey = false; }
+                    if (rightKey) { scene.Elements[1].VPoints[0].old = new Vec2(scene.Elements[1].VPoints[0].pos.X - 50, scene.Elements[1].VPoints[0].pos.Y); rightKey = false;
+                        instGolpe.Pan = 1;
+                        instGolpe.Volume = 0.5f;
+                        instGolpe.Play();
+                    }
                 }
 
 
+            }
+            else {
+                instKnock.Pan = 1;
+                instKnock.Volume = 0.5f;
+                instKnock.Play();
             }
 
 
