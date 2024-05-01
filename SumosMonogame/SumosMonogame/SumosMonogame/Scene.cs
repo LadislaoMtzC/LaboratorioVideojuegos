@@ -64,7 +64,7 @@ namespace SumosMonogame
 
             //Sumo head center point
             //THE SUMO CENTER HEAD POINT WILL BE 13
-            Vec2 headCenter = new Vec2(center.X, center.Y - radius - 15);
+            Vec2 headCenter = new Vec2(center.X, center.Y - radius - 25);
             Elements[Elements.Count - 1].addPoint(headCenter.X, headCenter.Y, countId, false, 20, 0.1f, new Vec2(0, 1));
             Elements[Elements.Count - 1].headCenterId = countId;
             countId++;

@@ -53,7 +53,7 @@ namespace SumosMonogame
             if (((DateTime.Now - lastWKeyPressTime) > delayTime))
             {
                 //g.DrawImage(jumpA, 10, 60 + heart.Height, jumpA.Width, jumpA.Height);
-                spriteBatch.Draw(arrow, new Rectangle((int)sumoA.X, (int)sumoA.Y-60, arrow.Width, arrow.Height), Color.White);
+                spriteBatch.Draw(arrow, new Rectangle((int)sumoA.X-15, (int)sumoA.Y-80, arrow.Width, arrow.Height), Color.White);
             }
             //por vidas jugador 2 dibuja x corazones
             for (int i = 0; i < lifesSumo2; i++)
@@ -66,7 +66,7 @@ namespace SumosMonogame
             if (((DateTime.Now - lastIKeyPressTime) > delayTime))
             {
                 //g.DrawImage(jumpA, 10, 60 + heart.Height, jumpA.Width, jumpA.Height);
-                spriteBatch.Draw(arrow, new Rectangle((int)sumoB.X, (int)sumoB.Y - 60, arrow.Width, arrow.Height), Color.White);
+                spriteBatch.Draw(arrow, new Rectangle((int)sumoB.X-15, (int)sumoB.Y - 80, arrow.Width, arrow.Height), Color.White);
             }
 
             spriteBatch.End();

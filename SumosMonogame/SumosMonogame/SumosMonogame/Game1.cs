@@ -23,8 +23,9 @@ namespace SumosMonogame
         SpriteFont titles;
   
         private float templesSpeed = 3.5f;
-        Vector2 cloudsPosition;
-        Vector2 templesPosition;
+        private float cloudsSpeed = 0.5f;
+        Vector2 cloudsPosition,cloudsPosition2;
+        Vector2 templesPosition, templesPosition2;
         MouseState mState;
         Canvas canvas;
         Scene scene;
@@ -142,8 +143,9 @@ namespace SumosMonogame
             pos = new Vector2(0, 0);
 
             cloudsPosition = new Vector2(0, 0);
+            cloudsPosition2 = new Vector2(-width, 0);
             templesPosition = new Vector2(0, 300);
-
+            templesPosition2 = new Vector2(-width, 300);
 
             spriteBatchBackground = new SpriteBatch(GraphicsDevice);
             spriteBatchForeground = new SpriteBatch(GraphicsDevice);
@@ -172,11 +174,27 @@ namespace SumosMonogame
             //mState = Mouse.GetState();
 
             //PARALAX
+            cloudsPosition.X += cloudsSpeed;
+            cloudsPosition2.X += cloudsSpeed;
+            // Si las nubes se salen del lado derecho de la pantalla, reaparécelos en el lado izquierdo
+            if (cloudsPosition.X > width)
+            {
+                cloudsPosition.X = -width; // Ajusta la posición utilizando el módulo
+            }
+            if (cloudsPosition2.X > width)
+            {
+                cloudsPosition2.X = -width; // Ajusta la posición utilizando el módulo
+            }
             templesPosition.X += templesSpeed;
+            templesPosition2.X += templesSpeed;
             // Si los templos se salen del lado derecho de la pantalla, reaparécelos en el lado izquierdo
             if (templesPosition.X > width)
             {
-                templesPosition.X = 0; // Ajusta la posición utilizando el módulo
+                templesPosition.X = -width; // Ajusta la posición utilizando el módulo
+            }
+            if (templesPosition2.X > width)
+            {
+                templesPosition2.X = -width; // Ajusta la posición utilizando el módulo
             }
             //UPDATE SUMOS
             inputSumo1();
@@ -194,10 +212,12 @@ namespace SumosMonogame
             spriteBatchBackground.Begin();
 
             // spriteBatchBackground.Draw(clouds, pos, new Rectangle(0, 0, screenWidth, screenHeight), Color.White, angle, Vector2.Zero, 1, SpriteEffects.None, 0.9f); 
-            spriteBatchBackground.Draw(clouds, new Rectangle(0, 0, width, height), Color.White); ;
+            spriteBatchBackground.Draw(clouds, new Rectangle((int)cloudsPosition.X, (int)cloudsPosition.Y, width, height), Color.White);
+            spriteBatchBackground.Draw(clouds, new Rectangle((int)cloudsPosition2.X, (int)cloudsPosition2.Y, width, height), Color.White);
             float scale = (float)width / Temples.Width;
 
             spriteBatchBackground.Draw(Temples, templesPosition, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
+            spriteBatchBackground.Draw(Temples, templesPosition2, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
             spriteBatchBackground.End();
             
 

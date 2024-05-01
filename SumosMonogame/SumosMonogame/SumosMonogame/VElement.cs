@@ -108,7 +108,7 @@ namespace SumosMonogame
 
             spriteBatch.Begin();
             //spriteBatch.Draw(redSumo, new Vector2(200, 200), Color.White);
-            spriteBatch.Draw(sumoBody, new Rectangle((int)VPoints[bodyCenterId].pos.X-60, (int)VPoints[bodyCenterId].pos.Y - 60, 140, 140), Color.White);
+            spriteBatch.Draw(sumoBody, new Rectangle((int)VPoints[bodyCenterId].pos.X-60, (int)VPoints[bodyCenterId].pos.Y - 60, 110, 110), Color.White);
             spriteBatch.End();
 
 
@@ -165,14 +165,14 @@ namespace SumosMonogame
                 }
                 //g.DrawImage(sumoSleepHead, VPoints[headCenterId].pos.X - 30, VPoints[headCenterId].pos.Y - 30, 60, 60);
 
-                spriteBatch.Draw(sumoSleep, new Rectangle((int)VPoints[headCenterId].pos.X - 25, (int)VPoints[headCenterId].pos.Y - 30, 70, 70), Color.White);
+                spriteBatch.Draw(sumoSleep, new Rectangle((int)VPoints[headCenterId].pos.X - 40, (int)VPoints[headCenterId].pos.Y - 35, 70, 70), Color.White);
             }
             else
             {
                 VPoints[headCenterId].pos.X = VPoints[bodyCenterId].pos.X;
                 VPoints[headCenterId].pos.Y = VPoints[bodyCenterId].pos.Y - VPoints[bodyCenterId].radius - 40;
                 //g.DrawImage(sumoNormalHead, VPoints[headCenterId].pos.X - 30, VPoints[headCenterId].pos.Y - 30, 60, 60);
-                spriteBatch.Draw(sumoNormal, new Rectangle((int)VPoints[headCenterId].pos.X - 25, (int)VPoints[headCenterId].pos.Y - 30, 70, 70), Color.White);
+                spriteBatch.Draw(sumoNormal, new Rectangle((int)VPoints[headCenterId].pos.X - 40, (int)VPoints[headCenterId].pos.Y - 35, 70, 70), Color.White);
             }
             spriteBatch.End();
             
