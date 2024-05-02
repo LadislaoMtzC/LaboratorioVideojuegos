@@ -22,7 +22,7 @@ namespace SumosMonogame
         int nLevelWidth, nLevelHeight;
         private List<Vector2> blockPositions;
         private string sLevel1, sLevel2, sLevel3;
-        int level;
+        public int level;
 
         byte[] bits;
 

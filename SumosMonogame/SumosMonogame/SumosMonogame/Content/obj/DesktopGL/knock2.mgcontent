@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock2.wav</SourceFile>
-  <SourceTime>2024-05-01T01:23:08.9619867-06:00</SourceTime>
-  <DestFile>C:/Users/Admin/Documents/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/bin/DesktopGL/knock2.xnb</DestFile>
-  <DestTime>2024-05-01T01:25:03.4350806-06:00</DestTime>
+  <SourceFile>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock2.wav</SourceFile>
+  <SourceTime>2024-05-01T14:18:01.2108159-06:00</SourceTime>
+  <DestFile>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/bin/DesktopGL/knock2.xnb</DestFile>
+  <DestTime>2024-05-01T19:50:29.7206696-06:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2022-07-26T06:44:56-05:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

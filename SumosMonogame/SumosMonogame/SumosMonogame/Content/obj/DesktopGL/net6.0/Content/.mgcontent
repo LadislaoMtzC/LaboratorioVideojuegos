@@ -4,10 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/../../../../../../../../Downloads/palmeras.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/arrow.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/blueSumo1.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/brick.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/buttonStock1h.png</File>
+    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/CampecheSky.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/CherryBlossoms.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Clouds.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/galleryFont.spritefont</File>
@@ -25,6 +27,7 @@
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock.wav</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock2.wav</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/knock3.wav</File>
+    <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/palmeras.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/redSumo1.png</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/salto.mp3</File>
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/salto2.wav</File>
@@ -34,6 +37,9 @@
     <File>C:/Users/f126a/OneDrive/Documentos/GitHub/LaboratorioVideojuegos/SumosMonogame/SumosMonogame/SumosMonogame/Content/Temples.png</File>
   </SourceFiles>
   <DestFiles>
+    <File>palmeras.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
