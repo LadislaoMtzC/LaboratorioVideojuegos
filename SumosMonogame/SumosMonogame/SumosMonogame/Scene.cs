@@ -11,7 +11,7 @@ namespace SumosMonogame
 {
     public class Scene
     {
-        public int rightLimitPlatform1, leftLimitPlatform1, rightLimitPlatform2, leftLimitPlatform2, rightLimitPlatform3, leftLimitPlatform3;
+        public int rightLimitPlatform1, leftLimitPlatform1, rightLimitPlatform2, leftLimitPlatform2, rightLimitPlatform3, leftLimitPlatform3, leftLimitPlatform4, rightLimitPlatform4;
         int ySuperiorLimit;
         int yInferiorLimit;
 
@@ -131,6 +131,8 @@ namespace SumosMonogame
             leftLimitPlatform3 = matriz[0, 2];
             rightLimitPlatform3 = matriz[1, 2];
 
+            leftLimitPlatform4 = matriz[0, 3];
+            rightLimitPlatform4 = matriz[1, 3];
 
         }
 
@@ -215,6 +217,27 @@ namespace SumosMonogame
 
                     break;
 
+                case 4:
+
+                    if (center.Y < ySuperiorLimit)
+                    {
+                        center.Y = ySuperiorLimit - radius;
+                    }
+                    if (center.Y > yInferiorLimit)
+                    {
+                        center.Y = yInferiorLimit + radius;
+                    }
+                    if (center.X > rightLimitPlatform4)
+                    {
+                        center.X = rightLimitPlatform4 + radius;
+                    }
+                    if (center.X < leftLimitPlatform4)
+                    {
+                        center.X = leftLimitPlatform4 - radius;
+                    }
+
+
+                    break;
 
 
                 case 0:
@@ -271,6 +294,16 @@ namespace SumosMonogame
                 return 3;
             }
 
+            if (((ySuperiorLimit < center.Y + radius && yInferiorLimit > center.Y + radius) //check up
+                   ||
+                   (ySuperiorLimit < center.Y - radius && yInferiorLimit > center.Y - radius)) //check down intersection
+                   &&
+                   ((rightLimitPlatform4 > center.X - radius && leftLimitPlatform4 < center.X - radius) //check right
+                   ||
+                   (rightLimitPlatform4 > center.X + radius && leftLimitPlatform4 < center.X + radius)))
+            {
+                return 4;
+            }
 
             return 0;
 

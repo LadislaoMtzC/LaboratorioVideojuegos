@@ -27,15 +27,15 @@ namespace SumosMonogame
 
 
         public Camera camera;
-        Map map;
+        public Map map;
 
-        public Canvas(int width, int height, SpriteBatch graphics, GraphicsDevice graphicsDevice)
+        public Canvas(int width, int height, SpriteBatch graphics, GraphicsDevice graphicsDevice, int level)
         {
             this.graphicsDevice = graphicsDevice;
             Width = width;
             Height = height;    
             camera = new Camera(1000, 0);
-            map = new Map(graphicsDevice);
+            map = new Map(graphicsDevice,level);
             g = graphics;
         }
 

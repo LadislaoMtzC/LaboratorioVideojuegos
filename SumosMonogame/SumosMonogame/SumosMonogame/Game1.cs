@@ -43,6 +43,7 @@ namespace SumosMonogame
         float angle;
         Vector2 origin;
         public Vector2 pos;
+        int timeUntilNextRound;
 
         bool aKey, wKey, dKey, upKey, leftKey, rightKey;
        
@@ -98,7 +99,7 @@ namespace SumosMonogame
             brush.SetData(new Color[] { Color.Gray });
 
             //CLASES
-            canvas = new Canvas(width, height, _spriteBatch, graphicsDevice);
+            canvas = new Canvas(width, height, _spriteBatch, graphicsDevice,1);
             scene = new Scene(width, height, graphicsDevice);
             scene.AddSumo(new Vec2(720, 200), 60);
             scene.AddSumo(new Vec2(1080, 200), 60);
@@ -107,7 +108,7 @@ namespace SumosMonogame
 
             timeAfterLoosingSumo1 = 0;
             timeAfterLoosingSumo2 = 0;
-
+            timeUntilNextRound = 300;
             
             base.Initialize();
         }
@@ -256,25 +257,40 @@ namespace SumosMonogame
                     if (juego.getLifesSumo1() > 0 && juego.getLifesSumo2() > 0)
                     {
                         juego.nextRound();
-                        map = new Map(graphicsDevice);
-                        scene = new Scene(width, height, graphicsDevice);
+                        scene.Elements = new List<VElement>();
                         scene.AddSumo(new Vec2(720, 200), 60);
                         scene.AddSumo(new Vec2(1080, 200), 60);
+                        timeAfterLoosingSumo1 = 0;
+                        timeAfterLoosingSumo2 = 0;
+
                     }
                     else
                     {
-                        spriteBatchBackground.Begin();
-
-                       
+                        spriteBatchBackground.Begin();  
                         spriteBatchBackground.Draw(clouds, new Rectangle(0, 0, width, height), Color.White); ;
 
 
-                        //spriteBatchBackground.DrawString(titles, "FIN DEL JUEGO", new Vector2(450, height/2), Color.Black);
-                        
+                        //spriteBatchBackground.DrawString(titles, "FIN DEL JUEGO", new Vector2(450, height / 2), Color.Black);
+
                         spriteBatchBackground.Draw(gameOver, new Vector2(350, 0), null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
 
                         spriteBatchBackground.End();
-                        return;
+                        timeUntilNextRound--;
+                        if (timeUntilNextRound <= 0)
+                        {
+                            scene.Elements = new List<VElement>();
+                            scene.AddSumo(new Vec2(720, 200), 60);
+                            scene.AddSumo(new Vec2(1080, 200), 60);
+                            timeAfterLoosingSumo1 = timeAfterLoosingSumo2 = 0;
+                            canvas.map.changeLevel();
+                            juego = new Juego(lifes, graphicsDevice);
+                            timeAfterLoosingSumo1 = 0;
+                            timeAfterLoosingSumo2 = 0;
+                            timeUntilNextRound = 300;
+
+                        }
+
+                        //return;
                     }
 
                 }
@@ -288,27 +304,42 @@ namespace SumosMonogame
                     juego.decreaseLifesSumo2();
                     if (juego.getLifesSumo1() > 0 && juego.getLifesSumo2() > 0)
                     {
-                        
+
                         juego.nextRound();
-                        map = new Map(graphicsDevice);
-                        scene = new Scene(width, height, graphicsDevice);
+                        scene.Elements = new List<VElement>();
                         scene.AddSumo(new Vec2(720, 200), 60);
                         scene.AddSumo(new Vec2(1080, 200), 60);
+                        timeAfterLoosingSumo1 = 0;
+                        timeAfterLoosingSumo2 = 0;
+
                     }
                     else
                     {
                         spriteBatchBackground.Begin();
-
-                       
                         spriteBatchBackground.Draw(clouds, new Rectangle(0, 0, width, height), Color.White); ;
 
 
                         //spriteBatchBackground.DrawString(titles, "FIN DEL JUEGO", new Vector2(450, height / 2), Color.Black);
-                        
-                        spriteBatchBackground.Draw(gameOver, new Vector2( 350, 0), null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
+
+                        spriteBatchBackground.Draw(gameOver, new Vector2(350, 0), null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
 
                         spriteBatchBackground.End();
-                        return;
+                        timeUntilNextRound--;
+                        if (timeUntilNextRound<=0)
+                        {
+                            scene.Elements = new List<VElement>();
+                            scene.AddSumo(new Vec2(720, 200), 60);
+                            scene.AddSumo(new Vec2(1080, 200), 60);
+                            timeAfterLoosingSumo1 = timeAfterLoosingSumo2 = 0;
+                            canvas.map.changeLevel();
+                            juego = new Juego(lifes, graphicsDevice);
+                            timeAfterLoosingSumo1 = 0;
+                            timeAfterLoosingSumo2 = 0;
+                            timeUntilNextRound = 300;
+
+                        }
+
+                        //return;
                     }
                 }
             }

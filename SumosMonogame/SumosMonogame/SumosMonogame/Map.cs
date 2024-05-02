@@ -21,7 +21,8 @@ namespace SumosMonogame
         public int nTileHeight = 40;
         int nLevelWidth, nLevelHeight;
         private List<Vector2> blockPositions;
-        private string sLevel;
+        private string sLevel1, sLevel2, sLevel3;
+        int level;
 
         byte[] bits;
 
@@ -35,37 +36,84 @@ namespace SumosMonogame
 
 
         
-        //MAPA1(ORIGINAL)
-        public Map(GraphicsDevice graphicsDevice)
+        //MAPA1(ORIGINAL)      
+        public Map(GraphicsDevice graphicsDevice, int level)
         {
             this.graphicsDevice = graphicsDevice;
             blockPositions = new List<Vector2>();
+            this.level = level;
+            sLevel1 = "";
 
-            sLevel = "";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
 
-            sLevel += "............................................................";
-            sLevel += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
 
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
 
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
+            sLevel1 += "...ppppppppppp.....pppppppppppppppppppppp.....ppppppppppp...";
+            sLevel1 += "...ppppppppppp.....pppppppppppppppppppppp.....ppppppppppp...";
 
-            sLevel += "...ppppppppppp.....pppppppppppppppppppppp.....ppppppppppp...";
-            sLevel += "...ppppppppppp.....pppppppppppppppppppppp.....ppppppppppp...";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
+            sLevel1 += "............................................................";
 
 
+            sLevel2 = "";
+
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+
+            sLevel2 += "...pppppppp.....ppppppppppp.....pppppppppppp.....pppppppp...";
+            sLevel2 += "...pppppppp.....ppppppppppp.....pppppppppppp.....pppppppp...";
+
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+            sLevel2 += "............................................................";
+
+            sLevel3 = "";
+
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+
+            sLevel3 += ".........pppppppppppppppppp.....ppppppppppppppppppp.........";
+            sLevel3 += ".........pppppppppppppppppp.....ppppppppppppppppppp.........";
+
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
+            sLevel3 += "............................................................";
 
 
             nLevelWidth = 60;
@@ -74,84 +122,6 @@ namespace SumosMonogame
         }
 
 
-        /*
-        //MAPA2
-        public Map(GraphicsDevice graphicsDevice)
-        {
-            this.graphicsDevice = graphicsDevice;
-            blockPositions = new List<Vector2>();
-
-            sLevel = "";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-            sLevel += "...pppppppp.....ppppppppppp.....pppppppppppp.....pppppppp...";
-            sLevel += "...pppppppp.....ppppppppppp.....pppppppppppp.....pppppppp...";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-
-
-
-            nLevelWidth = 60;
-            nLevelHeight = 17;
-
-        }*/
-
-
-        /*
-        //MAPA 3
-        public Map(GraphicsDevice graphicsDevice)
-        {
-            this.graphicsDevice = graphicsDevice;
-            blockPositions = new List<Vector2>();
-
-            sLevel = "";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-            sLevel += ".........pppppppppppppppppp.....ppppppppppppppppppp.........";
-            sLevel += ".........pppppppppppppppppp.....ppppppppppppppppppp.........";
-
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-            sLevel += "............................................................";
-
-
-
-
-            nLevelWidth = 60;
-            nLevelHeight = 17;
-
-        }*/
 
 
         public int[,] Draw(PointF cameraPos, int width, int height, Texture2D brick)
@@ -194,8 +164,8 @@ namespace SumosMonogame
             int indexRightLimits = 0;
             int yAppearance = -1;
             int[,] horizontalLimits = {
-             {-1, -1, -1},
-             {-1, -1, -1},
+             {-1, -1, -1, -1},
+             {-1, -1, -1, -1},
 
              };
             
@@ -214,7 +184,7 @@ namespace SumosMonogame
                     {
                         case '.':
                             //g.FillRectangle(Brushes.Black, stepX, stepY, nTileWidth, nTileHeight);
-                            if (previousOnePlatform && indexRightLimits < 3 && (indexLeftLimits < 3 || indexRightLimits<3))
+                            if (previousOnePlatform && (indexLeftLimits < 4 || indexRightLimits<4))
                             {
                                 horizontalLimits[1, indexRightLimits] = (int)stepX;
                                 indexRightLimits++;
@@ -233,13 +203,13 @@ namespace SumosMonogame
                             
 
 
-                            if ((previousOneEmpty || x == -1) && (indexLeftLimits < 3 || indexRightLimits < 3))
+                            if ((previousOneEmpty || x == -1) && (indexLeftLimits < 4))
                             {
                                 //means that it encountered a left limit
                                 horizontalLimits[0, indexLeftLimits] = (int)stepX;
                                 indexLeftLimits++;
                             }
-                            if (x == nVisibleTilesX + 1 && indexRightLimits < 3 &&  indexRightLimits < 3)
+                            if (x == nVisibleTilesX + 1 && indexRightLimits < 4)
                             {
                                 horizontalLimits[1, indexRightLimits] = (int)stepX;
                                 indexRightLimits++;
@@ -292,7 +262,13 @@ namespace SumosMonogame
             if (x >= 0 && x < nLevelWidth && y >= 0 && y < nLevelHeight)
             {
                 int index = (int)y * nLevelWidth + (int)x;
-                sLevel = sLevel.Remove(index, 1).Insert(index, c.ToString());
+                if (level == 1)
+                    sLevel1 = sLevel1.Remove(index, 1).Insert(index, c.ToString());
+                if (level == 2)
+                    sLevel2 = sLevel2.Remove(index, 1).Insert(index, c.ToString());
+                if (level == 3)
+                    sLevel3= sLevel3.Remove(index, 1).Insert(index, c.ToString());
+
 
             }
         }
@@ -300,9 +276,29 @@ namespace SumosMonogame
         public char GetTile(float x, float y)
         {
             if (x >= 0 && x < nLevelWidth && y >= 0 && y < nLevelHeight)
-                return sLevel[(int)y * nLevelWidth + (int)x];
+                switch (level)
+                {
+                    case 1:
+                        return sLevel1[(int)y * nLevelWidth + (int)x];
+                    case 2:
+                        return sLevel2[(int)y * nLevelWidth + (int)x];
+                    default:
+                        return sLevel3[(int)y * nLevelWidth + (int)x];
+                }
+
             else
                 return ' ';
+        }
+
+        public void changeLevel()
+        {
+            if (level != 3)
+            {
+                level++;
+            }
+            else {
+                level = 1;
+            }
         }
 
 

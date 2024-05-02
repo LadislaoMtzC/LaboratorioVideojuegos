@@ -223,3 +223,10 @@ C:\Users\Admin\Documents\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonoga
 C:\Users\Admin\Documents\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\knock.xnb
 C:\Users\Admin\Documents\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\knock2.xnb
 C:\Users\Admin\Documents\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\knock3.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\golpe.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\knock.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\knock2.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\knock3.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\salto.ogg
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\salto.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\salto2.xnb

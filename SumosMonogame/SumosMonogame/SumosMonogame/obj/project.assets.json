@@ -102,23 +102,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\f126a\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\SumosMonogame.csproj",
+      "projectUniqueName": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\SumosMonogame.csproj",
       "projectName": "SumosMonogame",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\SumosMonogame.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\obj\\",
+      "projectPath": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\SumosMonogame.csproj",
+      "packagesPath": "C:\\Users\\f126a\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\f126a\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -140,6 +140,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -171,7 +176,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

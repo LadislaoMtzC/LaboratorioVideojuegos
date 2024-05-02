@@ -80,6 +80,14 @@ namespace SumosMonogame
         {
             return lifesSumo2;
         }
+        public void setLifesSumo1(int l)
+        {
+            lifesSumo1 = l;
+        }
+        public void setLifesSumo2(int l)
+        {
+           lifesSumo2 = l;
+        }
 
         public void decreaseLifesSumo1()
         {
