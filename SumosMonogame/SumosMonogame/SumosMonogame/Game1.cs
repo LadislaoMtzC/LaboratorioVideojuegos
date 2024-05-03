@@ -20,7 +20,7 @@ namespace SumosMonogame
 
         SoundEffect golpe, knock, salto;
         SoundEffectInstance instGolpe, instKnock, instSalto;
-        Texture2D parallax1, parallax2, cmpch, palmera,clouds, heart, Temples, sumoSleep, sumoNormal, jumpAtivated, jumpDesactivated, brick, button, redSumo, blueSumo, gameOver, arrow;
+        Texture2D iglus, starNight, cmpch, palmera,clouds, heart, Temples, sumoSleep, sumoNormal, jumpAtivated, jumpDesactivated, brick, button, redSumo, blueSumo, gameOver, arrow;
         SpriteFont titles;
   
         private float templesSpeed = 3.5f;
@@ -128,6 +128,8 @@ namespace SumosMonogame
             clouds = Content.Load<Texture2D>("Clouds");
             heart = Content.Load<Texture2D>("heart");
             Temples = Content.Load<Texture2D>("Temples");
+            iglus = Content.Load<Texture2D>("starNight");
+            starNight = Content.Load<Texture2D>("startNight");
             sumoSleep = Content.Load<Texture2D>("sumoSleep");
             sumoNormal = Content.Load<Texture2D>("sumoNormal");
             jumpAtivated = Content.Load<Texture2D>("jumpActivated");
@@ -246,12 +248,12 @@ namespace SumosMonogame
                     spriteBatchBackground.Draw(palmera, templesPosition2, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
                     break;
                 default:
-                    spriteBatchBackground.Draw(cmpch, new Rectangle((int)cloudsPosition.X, (int)cloudsPosition.Y, width, height), Color.White);
-                    spriteBatchBackground.Draw(cmpch, new Rectangle((int)cloudsPosition2.X, (int)cloudsPosition2.Y, width, height), Color.White);
-                    scale = (float)width / palmera.Width;
+                    spriteBatchBackground.Draw(starNight, new Rectangle((int)cloudsPosition.X, (int)cloudsPosition.Y, width, height), Color.White);
+                    spriteBatchBackground.Draw(starNight, new Rectangle((int)cloudsPosition2.X, (int)cloudsPosition2.Y, width, height), Color.White);
+                    scale = (float)width / iglus.Width;
 
-                    spriteBatchBackground.Draw(palmera, templesPosition, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
-                    spriteBatchBackground.Draw(palmera, templesPosition2, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
+                    spriteBatchBackground.Draw(iglus, templesPosition, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
+                    spriteBatchBackground.Draw(iglus, templesPosition2, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0.8f);
                     break;
             }
             

@@ -232,3 +232,6 @@ C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\S
 C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\salto2.xnb
 C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\CampecheSky.xnb
 C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\palmeras.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\iglus.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\startNight.xnb
+C:\Users\f126a\OneDrive\Documentos\GitHub\LaboratorioVideojuegos\SumosMonogame\SumosMonogame\SumosMonogame\bin\Debug\net6.0\Content\starNight.xnb
