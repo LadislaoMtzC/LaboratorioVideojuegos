@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\f126a\\onedrive\\documentos\\github\\laboratoriovideojuegos\\sumosmonogame\\sumosmonogame\\sumosmonogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\sumosmonogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\sumosmonogame\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|c:\\users\\f126a\\onedrive\\documentos\\github\\laboratoriovideojuegos\\sumosmonogame\\sumosmonogame\\sumosmonogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\sumosmonogame\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -12,14 +20,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f126a\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\sumosmonogame\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\sumosmonogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|solutionrelative:sumosmonogame\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{702898AE-736D-4A29-9760-8277CC900B39}|SumosMonogame\\SumosMonogame.csproj|C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\sumosmonogame\\velement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,39 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "String.cs",
-              "DocumentMoniker": "C:\\Users\\f126a\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
-              "ToolTip": "C:\\Users\\f126a\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
-              "ViewState": "AQIAADMDAAAAAAAAAAArwEYDAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T21:38:22.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Canvas.cs",
-              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Canvas.cs",
-              "RelativeDocumentMoniker": "SumosMonogame\\Canvas.cs",
-              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Canvas.cs",
-              "RelativeToolTip": "SumosMonogame\\Canvas.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T23:42:07.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Scene.cs",
               "RelativeDocumentMoniker": "SumosMonogame\\Scene.cs",
               "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Scene.cs",
               "RelativeToolTip": "SumosMonogame\\Scene.cs",
-              "ViewState": "AQIAADgBAAAAAAAAAAAiwDABAAAYAAAA",
+              "ViewState": "AQIAACoBAAAAAAAAAAAcwDABAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T23:42:07.891Z",
               "EditorCaption": ""
@@ -120,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Map.cs",
               "RelativeDocumentMoniker": "SumosMonogame\\Map.cs",
               "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Map.cs",
               "RelativeToolTip": "SumosMonogame\\Map.cs",
-              "ViewState": "AQIAAPAAAAAAAAAAAAAYwBgAAAAPAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAQwLIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T23:42:07.9Z",
               "EditorCaption": ""
@@ -151,10 +125,35 @@
               "RelativeDocumentMoniker": "SumosMonogame\\Game1.cs",
               "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Game1.cs",
               "RelativeToolTip": "SumosMonogame\\Game1.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAQwGsAAAAAAAAA",
+              "ViewState": "AQIAAAABAAAAAAAAAAAlwAoBAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T23:42:07.822Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Canvas.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Canvas.cs",
+              "RelativeDocumentMoniker": "SumosMonogame\\Canvas.cs",
+              "ToolTip": "C:\\Users\\f126a\\OneDrive\\Documentos\\GitHub\\LaboratorioVideojuegos\\SumosMonogame\\SumosMonogame\\SumosMonogame\\Canvas.cs",
+              "RelativeToolTip": "SumosMonogame\\Canvas.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAhwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:42:07.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "String.cs",
+              "DocumentMoniker": "C:\\Users\\f126a\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
+              "ToolTip": "C:\\Users\\f126a\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\dc5bf33b3ca4dfc3c96b91f760953a76e4335789e5ef2c8c7fffa360db47516a\\src\\libraries\\System.Private.CoreLib\\src\\System\\String.cs",
+              "ViewState": "AQIAADMDAAAAAAAAAAArwEYDAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T21:38:22.819Z"
             },
             {
               "$type": "Document",
